@@ -1,0 +1,321 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* HEDAR STYLE START  */
+header {
+	background: url(images/donation13.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 669px;
+}
+.hedar-title {
+	padding: 174px 307px;
+}
+.hedar-text {
+	text-align: center;
+	color: aliceblue;
+	margin-bottom: 20px;
+}
+.hedar-button {
+	margin-left: 300px;
+	width: 160px;
+	height: 56px;
+	background: #FF5959;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+.text1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 79px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.text2 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* HEADER STYLE END */
+/* dONET SECTION STYLE START */
+.donate-today {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 130px;
+}
+.donate {
+	display: flex;
+	gap: 22px;
+}
+.donate div {
+	width: 135px;
+	height: 123px;
+	background: #FAFAFA;
+	border-radius: 5px;
+	padding: 43px 30px;
+	margin-bottom: 60px;
+}
+.donate-h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+}
+.donate-p {
+	text-align: center;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #707070;
+	margin-bottom: 20px;
+}
+#donate-child {
+	background: #FFEEEE;
+	border: 2px solid #FF5959
+}
+.last-p {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #B3B3B3;
+	font-size: 20px;
+}
+.h-line {
+	width: 765px;
+	border: 1px solid #DADADA;
+	margin-bottom: 30px;
+}
+.d-btn {
+	background: #FF5959;
+	border-radius: 5px;
+	width: 160px;
+	height: 56px;
+	padding: 16px 12px;
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: 600px;
+	border: none;
+	margin-bottom: 130px;
+}
+/* DONAT- TODAY SECTION STYLE END */
+/* OUR PLAN SECTION STYLE STARD */
+.our-plan {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.our-child {
+	display: flex;
+	gap: 24px;
+}
+.our-child div {
+	width: 360px;
+	padding: 60px 23px;
+	border-radius: 5px;
+}
+.our-child div img {
+	margin-bottom: 32px;
+}
+.our-child div h1 {
+	margin-bottom: 16px;
+}
+.our-child div p {
+	font-size: 18px;
+}
+#child-1 {
+	background: rgba(79, 157, 166, 0.1);
+}
+#child-2 {
+	background-color: #FFF4D6;
+}
+#child-3 {
+	background: rgba(255, 89, 89, 0.1);
+}
+.o-h1 {
+	text-align: ceneter;
+	margin-bottom: 20px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	color: #121212;
+}
+.o-p {
+	text-align: center;
+	margin-bottom: 50px;
+	color: #707070;
+	font-size: 20px;
+}
+/* OUR PLAN SECTION STYLE END  */
+/* HUNGRY PEPOLO SECTION STYLE START  */
+.hungry-pepole {
+	display: flex;
+	gap: 83px;
+	justify-content: center;
+	margin-top: 130px;
+}
+.hung-child2 img {
+	width: 456px;
+	height: 477px;
+}
+.hung-child1 {
+	width: 493px;
+	height: 374px;
+	padding: 50px 0 0 0;
+}
+.hung-child1 h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.hung-child1 p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.hung-child1 button {
+	width: 230px;
+	height: 56px;
+	background: #FF5959;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+
+/* HUNGRY PEPOLE SECTION STYLE END  */
+/* HUNGRY PEPOLE1 SECTION STYLE END  */
+
+.hungry-pepole1 {
+	display: flex;
+	gap: 83px;
+	justify-content: center;
+	margin-top: 100px;
+}
+.hung-child3 img {
+	width: 456px;
+	height: 477px;
+}
+.hung-child4 {
+	width: 493px;
+	height: 374px;
+	padding: 50px 0 0 0;
+}
+.hung-child4 h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.hung-child4 p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.hung-child4 button {
+	width: 230px;
+	height: 56px;
+	background: #FF5959;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+/* HUNGRY PEPOLE1 SECTION STYLE END  */
+/* LAST ITEM SECTION STYEL START  */
+.last-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 130px;
+}
+.last-item h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 54px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.last-item p {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.last-div {
+	width: 809px;
+	height: 200px;
+	left: 316px;
+	top: 3442px;
+	background: #FFF4D6;
+	display: flex;
+	align-items: center;
+	padding: 76px 188px;
+	margin-bottom: 130px;
+}
+.email {
+	width: 275px;
+	height: 48px;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+}
+.l-btn {
+	width: 157px;
+	height: 48px;
+	border: none;
+	background: #FF5959;
+	border-radius: 0px 5px 5px 0px;
+	color: white;
+	font-size: 20px;
+}
+/* LAST ITEM SECTION STYEL eND  */
+/* FOOTER STYLE START  */
+footer {
+	height: 177px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #0B0D17;
+	padding: 43px 0;
+}
+footer h1 {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: 0.5px;
+	color: #FF5959;
+	margin-bottom: 20px;
+}
+footer p {
+	color: #D9DBE1;
+}
+
+/* FOTTER STYLE END  */
